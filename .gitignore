@@ -1,0 +1,22 @@
+# Data directories
+data_raw/*
+data_processed/*
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment/secrets
+.env
+*.key
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# OS temp files
+*.swp
+*.swo
